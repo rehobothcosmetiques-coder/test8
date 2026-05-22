@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Basket Débutant</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    background:orange;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:40px;
+    color:black;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1e1e1e;
+    width:320px;
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.3s;
+    box-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h2{
+    color:orange;
+}
+
+.card p{
+    line-height:1.6;
+    color:#ddd;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Basket Pour Débutants</h1>
+</header>
+
+<div class="container">
+
+    <!-- SHOOT -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=1000" alt="Shoot basket">
+
+        <div class="card-content">
+            <h2>Le Shoot</h2>
+
+            <p>
+                Le shoot permet de marquer des points.
+                Il faut bien placer ses mains,
+                viser le panier et accompagner le ballon avec le poignet.
+            </p>
+        </div>
+    </div>
+
+    <!-- DRIBBLE -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1519861531473-9200262188bf?q=80&w=1000" alt="Dribble basket">
+
+        <div class="card-content">
+            <h2>Le Dribble</h2>
+
+            <p>
+                Le dribble sert à avancer avec le ballon.
+                Utilise le bout des doigts
+                et garde les yeux levés pour voir le terrain.
+            </p>
+        </div>
+    </div>
+
+    <!-- REGLES -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1505666287802-931dc83948e9?q=80&w=1000" alt="Arbitre basket">
+
+        <div class="card-content">
+            <h2>Les Règles</h2>
+
+            <p>
+                Au basket, il est interdit de marcher sans dribbler,
+                de pousser un joueur ou de sortir du terrain avec le ballon.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Site de Basket pour Débutants</p>
+</footer>
+
+</body>
+</html>
